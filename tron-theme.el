@@ -33,7 +33,7 @@
  `(bold ((t (:bold t))))
  `(bold-italic ((t (:bold t))))
  `(border-glyph ((t (nil))))
- '(link ((t (:foreground "LightSteelBlue4"))))
+ `(link ((t (:foreground "LightSteelBlue4"))))
  `(fringe ((t (:background "gray20"))))
  `(mode-line ((t (:foreground "#072d40" :background "#36648b"))))
  `(region ((t (:background "#356a9c"))))
@@ -71,6 +71,10 @@
  `(org-todo ((t (:overline "SteelBlue1" :underline "SteelBlue1"))))
  `(org-verbatim ((t (:background "gray20" :foreground "grey70"))))
  )
+
+(setq fringes-outside-margins t)
+(setq left-margin-width 2)
+(setq right-margin-width 2)
 
 (provide-theme `tron)
 
